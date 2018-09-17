@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/codeFragment">
+
+    <fragment
+        android:id="@+id/codeFragment"
+        android:name="pucaberta.pucminas.com.ui.code.CodeFragment"
+        android:label="Puc Aberta"
+        tools:layout="@layout/code_fragment">
+        <action
+            android:id="@+id/action_codeFragment_to_questionFragment"
+            app:destination="@id/questionFragment"
+            app:launchSingleTop="false"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionFragment"
+        android:name="pucaberta.pucminas.com.ui.questions.QuestionFragment"
+        android:label="Puc Aberta"
+        tools:layout="@layout/question_fragment">
+        <argument
+            android:name="questions"
+            app:argType="string" />
+    </fragment>
+</navigation>

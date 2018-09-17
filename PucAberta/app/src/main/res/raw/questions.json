@@ -1,0 +1,1059 @@
+{
+  "niveis": [
+    {
+      "tipo": 0,
+      "pergunta": [
+        {
+          "id": 0,
+          "enunciado": "Qual é o menor país do mundo?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": true,
+              "resposta": "Vaticano"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Mônaco"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Luxemburgo"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Andorra"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "enunciado": "Quem foi o presidente do Brasil que era conhecido como Jango?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "Jânio Quadros"
+            },
+            {
+              "id": 1,
+              "correta": true,
+              "resposta": "João Goulart"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Getúlio Vargas"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "João Figueiredo"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "enunciado": "Qual é o significado da palavra legend em português?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "Conto"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Legenda"
+            },
+            {
+              "id": 2,
+              "correta": true,
+              "resposta": "Lenda"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Legendário"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "enunciado": "Qual é o planeta conhecido por ter um anel em volta?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": true,
+              "resposta": "Marte"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Plutão"
+            },
+            {
+              "id": 2,
+              "correta": true,
+              "resposta": "Saturno"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Netuno"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "enunciado": "Qual é o coletivo de cães?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "Manada"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Bando"
+            },
+            {
+              "id": 2,
+              "correta": true,
+              "resposta": "Matilha"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Rebanho"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "enunciado": "Como é chamado o naipe do baralho que representa um coração?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "Ouros"
+            },
+            {
+              "id": 1,
+              "correta": true,
+              "resposta": "Copas"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Paus"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Espadas"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "enunciado": "Qual autor brasileiro escreveu a obra “Sítio do Pica Pau Amarelo”?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "Machado de Assis"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Clarice Lispector"
+            },
+            {
+              "id": 2,
+              "correta": true,
+              "resposta": "Monteiro Lobato"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Maurício de Souza"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "enunciado": "Quantos centímetros têm um metro?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "10 cm"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "100 cm"
+            },
+            {
+              "id": 2,
+              "correta": true,
+              "resposta": "1000 cm"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "10000 cm"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "enunciado": "Em qual cidade fica a Estátua da Liberdade?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "Rio de Janeiro "
+            },
+            {
+              "id": 1,
+              "correta": true,
+              "resposta": "Nova York"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Londres"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Paris"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "enunciado": "Em qual cidade fica a Estátua da Liberdade?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": true,
+              "resposta": "Baleia Azul "
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Dinossauro"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Hipopótamo"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Elefante"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "enunciado": "Qual o principal idioma falado na Angola?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "Inglês"
+            },
+            {
+              "id": 1,
+              "correta": true,
+              "resposta": "Português"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Francês"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Angolano"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "enunciado": "Qual é a capital da Colômbia?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "Caracas"
+            },
+            {
+              "id": 1,
+              "correta": true,
+              "resposta": "Bogotá"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Lima"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Medellín"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "enunciado": "Quantos signos tem o zodíaco?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "10"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "11"
+            },
+            {
+              "id": 2,
+              "correta": true,
+              "resposta": "12"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "14"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "enunciado": "Quantos dias tem um ano bissexto?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "350"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "364"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "365"
+            },
+            {
+              "id": 3,
+              "correta": true,
+              "resposta": "366"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "enunciado": "Qual o maior osso do corpo humano?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": true,
+              "resposta": "Fêmur"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Escápula"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Braço"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Tíbia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": 1,
+      "pergunta": [
+        {
+          "id": 0,
+          "enunciado": "Qual inseto transmite a doença de Chagas?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "Aedes agypti "
+            },
+            {
+              "id": 1,
+              "correta": true,
+              "resposta": "Barbeiro"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Baratas"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Percevejo"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "enunciado": "Na cultura brasileira, quem é conhecida como a 'rainha do mar'?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": true,
+              "resposta": "Iemanjá"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Oxum"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Iara"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Caipora"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "enunciado": "Quantos países fazem parte da América Latina?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "15"
+            },
+            {
+              "id": 1,
+              "correta": true,
+              "resposta": "21"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "25"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "57"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "enunciado": "Quantos países tem a língua portuguesa como língua oficial?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "2"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "4"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "5"
+            },
+            {
+              "id": 3,
+              "correta": true,
+              "resposta": "10"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "enunciado": "Qual abaixo é um dos pratos típicos da Alemanha?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "Hambúrguer"
+            },
+            {
+              "id": 1,
+              "correta": true,
+              "resposta": "Chucrute"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Paella"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Risotto"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "enunciado": "Qual é a capital dos Estados Unidos?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "Nova York"
+            },
+            {
+              "id": 1,
+              "correta": true,
+              "resposta": "Washington"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Boston"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Chicago"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "enunciado": "Qual é a capital dos Estados Unidos?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "Contato físico"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Pelo ar"
+            },
+            {
+              "id": 2,
+              "correta": true,
+              "resposta": "Picada de mosquito"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Pela água"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "enunciado": "Qual destes animais não sua",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": true,
+              "resposta": "Porco"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Cavalo"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Cachorro"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Jumento"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "enunciado": "Onde fica o Museu do Louvre?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "Nice"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Lyon"
+            },
+            {
+              "id": 2,
+              "correta": true,
+              "resposta": "Paris"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Cannes"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "enunciado": "Qual das alternativas abaixo não faz parte das 7 maravilhas do mundo moderno?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": true,
+              "resposta": "Estátua da Liberdade"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Chichén Itzá"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Muralha da China"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Taj Mahal"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "enunciado": "Qual é a padroeira de Belo Horizonte?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": true,
+              "resposta": "Nossa Senhora da Boa Viagem"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Nossa Senhora Abadia"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Nossa Senhora Aparecida"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Santa Bárbara"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "enunciado": "Quais os países que fazem parte do Nafta?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": true,
+              "resposta": "Canadá, EUA e México"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Brasil, Argentina e Chile"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Itália, Alemanha e França"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Costa Rica, México e EUA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": 2,
+      "pergunta": [
+        {
+          "id": 0,
+          "enunciado": "Quanto tempo a lua demora para dar uma volta à Terra (órbita)?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": true,
+              "resposta": "27 dias e 8 horas"
+            },
+            {
+              "id": 1,
+              "correta": true,
+              "resposta": "25 dias"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "30 dias"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "29 dias e 12 horas"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "enunciado": "Qual foi o matemático e geógrafo que calculou o perímetro da Terra em 240 a.C.?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "Sócrates"
+            },
+            {
+              "id": 1,
+              "correta": true,
+              "resposta": "Erastótenes"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Sófocles"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Descartes"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "enunciado": "Qual é o autor de 'A Arte da Guerra'?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "Confúcio"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Gandhi"
+            },
+            {
+              "id": 2,
+              "correta": true,
+              "resposta": "Sun Tzu"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Mao Tsé Tung"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "enunciado": "Quantos ossos tem um bebê recém-nascido?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "206"
+            },
+            {
+              "id": 1,
+              "correta": true,
+              "resposta": "276"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "230"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "300"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "enunciado": "Quantos litros de sangue tem uma pessoa?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "10 litros"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "7 litros"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "2 a 4 litros"
+            },
+            {
+              "id": 3,
+              "correta": true,
+              "resposta": "4 a 6 litros"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "enunciado": "Em qual país foi inventado o chuveiro elétrico?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "Estados Unidos"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "França"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Inglaterra"
+            },
+            {
+              "id": 3,
+              "correta": true,
+              "resposta": "Brasil"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "enunciado": "Qual o livro mais vendido no mundo depois da Bíblia?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "50 Tons de Cinza"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Senhor dos Anéis"
+            },
+            {
+              "id": 2,
+              "correta": true,
+              "resposta": "Dom Quixote"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Harry Potter"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "enunciado": "Qual o livro mais vendido no mundo depois da Bíblia?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "55"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "97"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "110"
+            },
+            {
+              "id": 3,
+              "correta": true,
+              "resposta": "118"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "enunciado": "Quanto mede um hectare?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "100 metros quadrados"
+            },
+            {
+              "id": 1,
+              "correta": true,
+              "resposta": "10 mil quilômetros quadrados"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "24.200 metros"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "48.400 metros quadrados"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "enunciado": "Qual o feriado comemorado no dia 15 de novembro?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": false,
+              "resposta": "Independência do Brasil"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Dia de Finados"
+            },
+            {
+              "id": 2,
+              "correta": true,
+              "resposta": "Proclamação da República"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Dia da Consciência Negra"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "enunciado": "Qual feriado é comemorado no dia 7 de setembro?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": true,
+              "resposta": "Independência do Brasil"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Proclamação da República"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Finados"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Tiradentes"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "enunciado": "Quais são as quatro casas da franquia Harry Potter?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": true,
+              "resposta": "Grifinória, Corvinal, Sonserina e Lufa-Lufa"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Stark, Corvinal, Sonserina e Lufa-Lufa"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Targaryen, Lannister, Tully e Lufa-Lufa"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Baratheon, Grifinória, Sonserina e Corvinal"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "enunciado": "Quem inventou o cinematógrafo?",
+          "questoes": [
+            {
+              "id": 0,
+              "correta": true,
+              "resposta": "Irmãos Lumiere"
+            },
+            {
+              "id": 1,
+              "correta": false,
+              "resposta": "Fernanda Montenegro"
+            },
+            {
+              "id": 2,
+              "correta": false,
+              "resposta": "Steven Spielberg"
+            },
+            {
+              "id": 3,
+              "correta": false,
+              "resposta": "Quentin Tarantino"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
