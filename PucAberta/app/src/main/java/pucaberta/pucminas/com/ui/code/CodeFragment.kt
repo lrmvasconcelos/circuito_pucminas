@@ -9,6 +9,8 @@ import android.view.ViewGroup
 import androidx.navigation.Navigation
 import kotlinx.android.synthetic.main.code_fragment.*
 import pucaberta.pucminas.com.R
+import java.io.IOException
+import java.io.InputStream
 
 class CodeFragment : Fragment() {
 
@@ -30,7 +32,8 @@ class CodeFragment : Fragment() {
         btnNext.setOnClickListener {
             if (checkCode()) {
                 val bundle = Bundle()
-                bundle.putString("questions", viewModel.getQuestionsJson())
+                val myJson = inputStreamToString(resources.openRawResource(R.raw.questions))
+                bundle.putString("questions", viewModel.getQuestionsJson(myJson))
                 Navigation.findNavController(activity!!, R.id.myFragment)
                         .navigate(R.id.action_codeFragment_to_questionFragment, bundle)
             }
@@ -39,6 +42,17 @@ class CodeFragment : Fragment() {
 
     private fun checkCode(): Boolean {
         return true
+    }
+
+    private fun inputStreamToString(inputStream: InputStream): String {
+        return try {
+            val bytes = ByteArray(inputStream.available())
+            inputStream.read(bytes, 0, bytes.size)
+            String(bytes)
+        } catch (e: IOException) {
+            ""
+        }
+
     }
 
 }

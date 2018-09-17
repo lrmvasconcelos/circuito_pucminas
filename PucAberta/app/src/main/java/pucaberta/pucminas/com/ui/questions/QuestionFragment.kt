@@ -18,7 +18,7 @@ class QuestionFragment : Fragment() {
 
     private lateinit var viewModel: QuestionViewModel
 
-    private lateinit var questions: Array<Question>
+//    private lateinit var questions: Array<Question>
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
@@ -29,7 +29,6 @@ class QuestionFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
         val questionsJson = arguments?.getString("questions")
 
-        questions = Gson().fromJson(questionsJson, Array<Question>::class.java)
         viewModel = ViewModelProviders.of(this, QuestionViewModelFactory(questionsJson!!))
                 .get(QuestionViewModel::class.java)
 
@@ -68,9 +67,9 @@ class QuestionFragment : Fragment() {
         answerDText.text = data.answers[3].answer
     }
 
-    fun answerChecked(answerNumber: Int) {
-        when {
-            answerNumber == 0 -> {
+    private fun answerChecked(answerNumber: Int) {
+        when (answerNumber) {
+            0 -> {
                 viewModel.answerChecked = 0
                 if (checkBoxB.isChecked)
                     checkBoxB.toggle()
@@ -79,7 +78,7 @@ class QuestionFragment : Fragment() {
                 if (checkBoxD.isChecked)
                     checkBoxD.toggle()
             }
-            answerNumber == 1 -> {
+            1 -> {
                 viewModel.answerChecked = 1
                 if (checkBoxA.isChecked)
                     checkBoxA.toggle()
@@ -88,7 +87,7 @@ class QuestionFragment : Fragment() {
                 if (checkBoxD.isChecked)
                     checkBoxD.toggle()
             }
-            answerNumber == 2 -> {
+            2 -> {
                 viewModel.answerChecked = 2
                 if (checkBoxA.isChecked)
                     checkBoxA.toggle()
@@ -97,7 +96,7 @@ class QuestionFragment : Fragment() {
                 if (checkBoxD.isChecked)
                     checkBoxD.toggle()
             }
-            answerNumber == 3 -> {
+            3 -> {
                 viewModel.answerChecked = 3
                 if (checkBoxA.isChecked)
                     checkBoxA.toggle()

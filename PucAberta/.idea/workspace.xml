@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLayouts">
-    <shared>
-      <config>
-        <device id="Nexus 7" />
-        <device id="Nexus 10" />
-      </config>
-    </shared>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bf0ebf3-247c-49f0-ae89-aaa93ef1b3f2" name="Default Changelist" comment="" />
+    <list default="true" id="1a33b677-37d4-4242-b5fd-e136e0573dab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/model/QuestionsFile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/model/QuestionsFile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/code/CodeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/code/CodeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/code/CodeViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/code/CodeViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionViewModel.kt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,79 +26,108 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="PucAberta" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
+        <projects_view />
       </state>
     </system>
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="412921932">
+    <session id="1773631253">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="json" value="2" />
-          <entry key="kt" value="18" />
-          <entry key="xml" value="10" />
+          <entry key="java" value="1" />
+          <entry key="kt" value="8" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JSON" value="2" />
-          <entry key="Kotlin" value="18" />
-          <entry key="XML" value="10" />
+          <entry key="JAVA" value="1" />
+          <entry key="Kotlin" value="8" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="1511" />
-          <entry key="xml" value="535" />
+          <entry key="kt" value="354" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="1511" />
-          <entry key="XML" value="535" />
+          <entry key="Kotlin" value="354" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/code/CodeFragment.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
+              <folding>
+                <element signature="e#40#393#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionFragment.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/model/QuestionsFile.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/b2da9f8444128651758719856de579eacff7f387/gson-2.8.2-sources.jar!/com/google/gson/internal/bind/ArrayTypeAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml">
+          <provider editor-type-id="text-editor" />
           <provider selected="true" editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/code/CodeViewModel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="e#40#199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Kotlin Class" />
-        <option value="Kotlin File" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -2424,34 +2455,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/model/Answer.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/model/Question.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/code/CodeViewModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/code/CodeFragment.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionViewModelFactory.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionResponse.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/code/CodeViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/model/QuestionsFile.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionViewModel.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/question_fragment.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionFragment.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/SplashActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="281" />
-    <option name="y" value="1078" />
-    <option name="width" value="1366" />
-    <option name="height" value="770" />
+    <option name="x" value="49" />
+    <option name="y" value="27" />
+    <option name="width" value="1307" />
+    <option name="height" value="741" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
@@ -2493,19 +2518,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="device.picker.selection" value="10.1_WXGA_Tablet_API_22" />
-    <property name="last_opened_file_path" value="$USER_HOME$/git/work_out_mvvm/WorkOut" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="pucaberta.pucminas.com" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2585,19 +2603,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0bf0ebf3-247c-49f0-ae89-aaa93ef1b3f2" name="Default Changelist" comment="" />
-      <created>1537137045133</created>
+      <changelist id="1a33b677-37d4-4242-b5fd-e136e0573dab" name="Default Changelist" comment="" />
+      <created>1537182646672</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1537137045133</updated>
+      <updated>1537182646672</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="281" y="1078" width="1366" height="770" extended-state="6" />
-    <editor active="true" />
+    <frame x="49" y="25" width="1317" height="743" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.21742424" />
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3296617" />
       <window_info id="Structure" side_tool="true" />
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Image Layers" />
@@ -2605,192 +2622,116 @@
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Run" weight="0.32952693" />
       <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="Android Profiler" />
-      <window_info anchor="bottom" id="Debug" weight="0.32866043" />
+      <window_info anchor="bottom" id="Debug" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.47507787" />
+      <window_info anchor="bottom" id="Build" weight="0.3284553" />
       <window_info anchor="right" id="Device File Explorer" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" weight="0.32954547" />
+      <window_info anchor="right" id="Gradle" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Preview" weight="0.32954547" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3296617" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Build Variants" order="6" side_tool="true" />
+      <window_info id="Captures" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Logcat" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="5" weight="0.3284553" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.70/645811a161689d7b2d4362eaee1e30abf22a27d7/kotlin-stdlib-1.2.70-sources.jar!/kotlin/Array.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/model/Level.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionViewModelFactory.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#45#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/model/Question.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#38#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/model/Answer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/code/CodeViewModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#40#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/HomeActivity.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionResponse.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/code/CodeFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="34" column="85" selection-start-line="34" selection-start-column="85" selection-end-line="34" selection-end-column="85" />
+        <state relative-caret-position="126">
+          <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
           <folding>
-            <element signature="e#40#366#0" expanded="true" />
+            <element signature="e#40#393#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/questions.json">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/code/CodeViewModel.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13780">
-          <caret line="106" column="13" lean-forward="true" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/code_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="420">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
-            <element signature="e#1412#1431#0" expanded="true" />
-            <element signature="e#1462#1481#0" expanded="true" />
-            <element signature="e#1503#1532#0" expanded="true" />
-            <element signature="e#1594#1616#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionResponse.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-27/android.jar!/android/widget/CompoundButton.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-          <folding>
-            <element signature="e#1534#1535#0" expanded="true" />
-            <element signature="e#1585#1586#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/question_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
-          <folding>
-            <element signature="e#1121#1148#0" expanded="true" />
-            <element signature="e#1927#1952#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/SplashActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionViewModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1055">
-          <caret line="97" column="38" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
-          <folding>
-            <element signature="e#45#392#0" expanded="true" />
-            <element signature="e#1886#1920#1" expanded="true" />
+            <element signature="e#40#199#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#45#208#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/model/QuestionsFile.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/b2da9f8444128651758719856de579eacff7f387/gson-2.8.2-sources.jar!/com/google/gson/internal/bind/ArrayTypeAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
