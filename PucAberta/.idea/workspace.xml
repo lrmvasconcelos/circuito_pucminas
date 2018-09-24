@@ -11,30 +11,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a33b677-37d4-4242-b5fd-e136e0573dab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/MyApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/MySPreferencesManager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/result/ResultFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/result/ResultViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/result_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/model/Level.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/model/Level.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/model/QuestionsFile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/model/QuestionsFile.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/code/CodeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/code/CodeFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/code/CodeViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/code/CodeViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/model/QuestionResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="1a33b677-37d4-4242-b5fd-e136e0573dab" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +34,7 @@
     <session id="1773631253">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -85,13 +62,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="3801" />
+          <entry key="kt" value="3804" />
           <entry key="xml" value="394" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="3801" />
+          <entry key="Kotlin" value="3804" />
           <entry key="XML" value="394" />
         </counts>
       </usages-collector>
@@ -99,20 +76,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionViewModel.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+            <state relative-caret-position="-571">
+              <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="76" column="25" lean-forward="true" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+            <state relative-caret-position="-579">
+              <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -2416,10 +2393,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/model/QuestionsFile.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/MySPreferencesManager.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/code/CodeViewModel.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionViewModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/MyApplication.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionViewModel.kt" />
       </list>
     </option>
   </component>
@@ -2684,6 +2661,12 @@
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionFragment.kt</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -2862,17 +2845,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionFragment.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionViewModel.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="76" column="25" lean-forward="true" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+        <state relative-caret-position="-571">
+          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionViewModel.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pucaberta/pucminas/com/ui/questions/QuestionFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        <state relative-caret-position="-579">
+          <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
         </state>
       </provider>
     </entry>
