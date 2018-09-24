@@ -4,4 +4,7 @@
     <string name="btn_enter_code_text">Próximo</string>
     <string name="question_title">Questão %d/9 </string>
     <string name="btn_answer_text">Responder</string>
+    <string name="restart">Recomeçar</string>
+    <string name="congratulations">Parabéns o seu resultado foi: </string>
+    <string name="result">%d de 9 questões</string>
 </resources>

@@ -7,6 +7,9 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.Toast
+import androidx.navigation.Navigation
 import com.google.gson.Gson
 import kotlinx.android.synthetic.main.question_fragment.*
 
@@ -50,12 +53,38 @@ class QuestionFragment : Fragment() {
             answerChecked(3)
         }
 
+        btnAnswer.setOnClickListener {
+            viewModel.nextQuestion()
+            uncheckAnswers()
+        }
+    }
+
+    private fun uncheckAnswers() {
+        if (checkBoxA.isChecked)
+            checkBoxA.toggle()
+        if (checkBoxB.isChecked)
+            checkBoxB.toggle()
+        if (checkBoxC.isChecked)
+            checkBoxC.toggle()
+        if (checkBoxD.isChecked)
+            checkBoxD.toggle()
     }
 
     private fun observeQuestions() {
         viewModel.questionsLiveData.observe(this, Observer { response ->
             showQuestion(response?.question, response?.number!!)
         })
+        viewModel.btnStateLiveData.observe(this, Observer {
+            setButtonState(it)
+        })
+        viewModel.scoreLiveData.observe(this, Observer {
+            Navigation.findNavController(activity!!, R.id.myFragment)
+                    .navigate(R.id.action_questionFragment_to_resultFragment)
+        })
+    }
+
+    private fun setButtonState(isEnabled: Boolean?) {
+        btnAnswer.enabled(isEnabled)
     }
 
     private fun showQuestion(data: Question?, number: Int) {
@@ -70,7 +99,7 @@ class QuestionFragment : Fragment() {
     private fun answerChecked(answerNumber: Int) {
         when (answerNumber) {
             0 -> {
-                viewModel.answerChecked = 0
+                viewModel.checked(0)
                 if (checkBoxB.isChecked)
                     checkBoxB.toggle()
                 if (checkBoxC.isChecked)
@@ -79,7 +108,7 @@ class QuestionFragment : Fragment() {
                     checkBoxD.toggle()
             }
             1 -> {
-                viewModel.answerChecked = 1
+                viewModel.checked(1)
                 if (checkBoxA.isChecked)
                     checkBoxA.toggle()
                 if (checkBoxC.isChecked)
@@ -88,7 +117,7 @@ class QuestionFragment : Fragment() {
                     checkBoxD.toggle()
             }
             2 -> {
-                viewModel.answerChecked = 2
+                viewModel.checked(2)
                 if (checkBoxA.isChecked)
                     checkBoxA.toggle()
                 if (checkBoxB.isChecked)
@@ -97,7 +126,7 @@ class QuestionFragment : Fragment() {
                     checkBoxD.toggle()
             }
             3 -> {
-                viewModel.answerChecked = 3
+                viewModel.checked(3)
                 if (checkBoxA.isChecked)
                     checkBoxA.toggle()
                 if (checkBoxB.isChecked)
@@ -107,4 +136,11 @@ class QuestionFragment : Fragment() {
             }
         }
     }
+}
+
+private fun Button.enabled(enabled: Boolean?) {
+    if (enabled!!)
+        this.setBackgroundColor(resources.getColor(R.color.buttonEnabled))
+    else
+        this.setBackgroundColor(resources.getColor(R.color.buttonDisabled))
 }
