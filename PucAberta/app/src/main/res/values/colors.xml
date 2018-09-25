@@ -6,4 +6,5 @@
 
     <color name="buttonEnabled">@color/colorAccent</color>
     <color name="buttonDisabled">@color/colorPrimaryDark</color>
+    <color name="white">#FFFFFF</color>
 </resources>
