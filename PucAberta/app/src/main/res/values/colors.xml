@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#298eac</color>
+    <color name="colorPrimaryDark">#298eac</color>
     <color name="colorAccent">#D81B60</color>
 
-    <color name="buttonEnabled">@color/colorAccent</color>
-    <color name="buttonDisabled">@color/colorPrimaryDark</color>
+    <color name="buttonEnabled">@color/colorPrimary</color>
+    <color name="buttonDisabled">@color/grey</color>
+    <color name="buttonFontColor">@color/white</color>
+
     <color name="white">#FFFFFF</color>
+    <color name="white_grey">#EEEFFF</color>
+    <color name="grey">#58676c</color>
+
+    <color name="checkboxA">#298eac</color>
+    <color name="checkboxB">#e10280</color>
+    <color name="checkboxC">#93c120</color>
+    <color name="checkboxD">#f9a603</color>
+
+
+    <color name="progressBarColor">#32298EAC</color>
+    <color name="progressColor">@color/colorPrimary</color>
+
 </resources>

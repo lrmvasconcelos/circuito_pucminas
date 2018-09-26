@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Circuito Puc Minas</string>
     <string name="enter_code">Entre com o código das perguntas</string>
     <string name="btn_enter_code_text">Próximo</string>
     <string name="question_title">Questão %d/9 </string>

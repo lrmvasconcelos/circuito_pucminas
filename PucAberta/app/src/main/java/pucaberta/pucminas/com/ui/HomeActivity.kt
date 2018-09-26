@@ -14,12 +14,12 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.home_activity)
         val host = supportFragmentManager.findFragmentById(R.id.myFragment) as NavHostFragment
         val navController = host.navController
-        NavigationUI.setupActionBarWithNavController(this, navController)
+        NavigationUI.setupActionBarWithNavController(this, navController,null)
 
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        return Navigation.findNavController(this, R.id.myFragment).navigateUp()
+        onBackPressed()
+        return false
     }
-
 }

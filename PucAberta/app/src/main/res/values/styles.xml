@@ -13,4 +13,22 @@
         <item name="android:background">@color/white</item>
     </style>
 
+    <style name="checkBoxStyleA" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/checkboxA</item>
+        <item name="android:textColorSecondary">@color/checkboxA</item>
+    </style>
+    <style name="checkBoxStyleB" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/checkboxB</item>
+        <item name="android:textColorSecondary">@color/checkboxB</item>
+    </style>
+    <style name="checkBoxStyleC" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/checkboxC</item>
+        <item name="android:textColorSecondary">@color/checkboxC</item>
+    </style>
+    <style name="checkBoxStyleD" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/checkboxD</item>
+        <item name="android:textColorSecondary">@color/checkboxD</item>
+    </style>
+
+
 </resources>

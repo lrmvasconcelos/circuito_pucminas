@@ -13,7 +13,6 @@
         <action
             android:id="@+id/action_codeFragment_to_questionFragment"
             app:destination="@id/questionFragment"
-            app:launchSingleTop="true"
             app:clearTask="true"/>
     </fragment>
     <fragment
@@ -27,9 +26,7 @@
         <action
             android:id="@+id/action_questionFragment_to_resultFragment"
             app:destination="@+id/resultFragment"
-            app:clearTask="true"
-            app:launchSingleTop="true"
-            app:popUpTo="@+id/codeFragment" />
+            app:clearTask="true"/>
     </fragment>
     <fragment
         android:id="@+id/resultFragment"
@@ -39,7 +36,6 @@
         <action
             android:id="@+id/action_resultFragment_to_codeFragment"
             app:destination="@id/codeFragment"
-            app:clearTask="true"
-            app:launchSingleTop="true"/>
+            app:clearTask="true"/>
     </fragment>
 </navigation>

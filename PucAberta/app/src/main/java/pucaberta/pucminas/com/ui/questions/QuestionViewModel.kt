@@ -4,13 +4,15 @@ import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.ViewModel
 import com.google.gson.Gson
 import pucaberta.pucminas.com.MyApplication
+import pucaberta.pucminas.com.model.Question
 import pucaberta.pucminas.com.model.QuestionResponse
 import pucaberta.pucminas.com.model.QuestionsFile
 
 class QuestionViewModel(json: String) : ViewModel() {
 
-    val questionsLiveData: MutableLiveData<QuestionResponse> = MutableLiveData()
+    val questionsLiveData: MutableLiveData<Question> = MutableLiveData()
     val btnStateLiveData: MutableLiveData<Boolean> = MutableLiveData()
+    val correctAnswerLiveData: MutableLiveData<QuestionResponse> = MutableLiveData()
     val scoreLiveData: MutableLiveData<Int> = MutableLiveData()
     private var numberQuestions = 0
     private var currentQuestion = getCurrentQuestion()
@@ -21,12 +23,10 @@ class QuestionViewModel(json: String) : ViewModel() {
 
     init {
         if (isQuestionFinished()) {
-            scoreLiveData.value = 10
-        }  else {
+           scoreLiveData.value = 10
+        } else{
             numberQuestions = questionFile!!.size()
-            questionsLiveData.value =
-                    QuestionResponse(number = currentQuestion,
-                            question = questionsList!![currentQuestion])
+            questionsLiveData.value = questionsList!![currentQuestion]
             btnStateLiveData.value = false
             saveDataInstance()
             startQuestions()
@@ -45,16 +45,19 @@ class QuestionViewModel(json: String) : ViewModel() {
     }
 
     private fun checkQuestion(answerChecked: Int) {
+        var isCorrect = false
         if (questionsList!![currentQuestion].answers[answerChecked].correct) {
             correctAnswers++
+            isCorrect = true
         }
         currentQuestion++
         if (currentQuestion < 9) {
             this.answerChecked = -1
-            questionsLiveData.value = QuestionResponse(currentQuestion, questionsList!![currentQuestion])
+            correctAnswerLiveData.value =
+                    QuestionResponse(currentQuestion, questionsList!![currentQuestion], isCorrect)
             btnStateLiveData.value = false
         } else {
-            scoreLiveData.value = correctAnswers
+            correctAnswerLiveData.value = QuestionResponse(9, questionsList!![8], isCorrect)
             finishQuestions()
         }
         saveDataInstance()
@@ -79,7 +82,7 @@ class QuestionViewModel(json: String) : ViewModel() {
         MyApplication.instance.startQuestions()
     }
 
-    private fun finishQuestions(){
+    private fun finishQuestions() {
         MyApplication.instance.finishQuestions()
     }
 
