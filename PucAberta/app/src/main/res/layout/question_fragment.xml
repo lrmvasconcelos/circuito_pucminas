@@ -7,171 +7,243 @@
     android:fillViewport="true"
     tools:context=".ui.questions.QuestionFragment">
 
-    <LinearLayout
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
+        android:background="@color/white_grey"
         tools:ignore="ScrollViewSize">
 
-        <TextView
-            android:id="@+id/questionNumber"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:text="@string/question_title"
-            android:textSize="@dimen/question_number_text_size" />
-
-        <TextView
-            android:id="@+id/questionText"
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/question_margin_horizontal"
-            android:layout_marginTop="@dimen/question_margin_top"
-            android:layout_marginEnd="@dimen/question_margin_horizontal"
-            android:textSize="@dimen/question_text_size" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
+            android:layout_margin="@dimen/progress_margin"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:progressDrawable="@drawable/progress_bar_rounded"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <LinearLayout
-            android:id="@+id/answerAContainer"
+            android:id="@+id/questionsContainer"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/answer_margin_horizontal"
-            android:layout_marginTop="@dimen/answer_margin_to"
-            android:layout_marginEnd="@dimen/answer_margin_horizontal"
-            android:orientation="horizontal">
-
-            <CheckBox
-                android:id="@+id/checkBoxA"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/check_box_margin"
-                android:scaleX="1.5"
-                android:scaleY="1.5" />
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:background="@color/white_grey"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/progressBar">
 
             <TextView
-                android:id="@+id/answerAText"
-                android:layout_width="wrap_content"
+                android:id="@+id/questionText"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="@dimen/answer_text_size" />
+                android:layout_marginStart="@dimen/question_margin_horizontal"
+                android:layout_marginTop="@dimen/question_margin_top"
+                android:layout_marginEnd="@dimen/question_margin_horizontal"
+                android:textAlignment="center"
+                android:textSize="@dimen/question_text_size"
+                tools:text="Quanto e 2 + 2?" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/answer_margin_horizontal"
+                android:layout_marginTop="@dimen/answer_margin_to"
+                android:layout_marginEnd="@dimen/answer_margin_horizontal"
+                app:cardCornerRadius="@dimen/card_radius"
+                app:cardElevation="@dimen/card_elevation">
+
+                <LinearLayout
+                    android:id="@+id/answerAContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/checkBoxA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/check_box_margin"
+                        android:scaleX="1.5"
+                        android:scaleY="1.5"
+                        android:theme="@style/checkBoxStyleA" />
+
+                    <TextView
+                        android:id="@+id/answerAText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/answer_text_size" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/answer_margin_horizontal"
+                android:layout_marginTop="@dimen/answer_margin_to"
+                android:layout_marginEnd="@dimen/answer_margin_horizontal"
+                app:cardCornerRadius="@dimen/card_radius"
+                app:cardElevation="@dimen/card_elevation">
+
+                <LinearLayout
+                    android:id="@+id/answerBContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/checkBoxB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/check_box_margin"
+                        android:scaleX="1.5"
+                        android:scaleY="1.5"
+                        android:theme="@style/checkBoxStyleB" />
+
+                    <TextView
+                        android:id="@+id/answerBText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/answer_text_size" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/answer_margin_horizontal"
+                android:layout_marginTop="@dimen/answer_margin_to"
+                android:layout_marginEnd="@dimen/answer_margin_horizontal"
+                app:cardCornerRadius="@dimen/card_radius"
+                app:cardElevation="@dimen/card_elevation">
+
+                <LinearLayout
+                    android:id="@+id/answerCContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/checkBoxC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/check_box_margin"
+                        android:scaleX="1.5"
+                        android:scaleY="1.5"
+                        android:theme="@style/checkBoxStyleC" />
+
+                    <TextView
+                        android:id="@+id/answerCText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/answer_text_size" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/answer_margin_horizontal"
+                android:layout_marginTop="@dimen/answer_margin_to"
+                android:layout_marginEnd="@dimen/answer_margin_horizontal"
+                app:cardCornerRadius="@dimen/card_radius"
+                app:cardElevation="@dimen/card_elevation">
+
+                <LinearLayout
+                    android:id="@+id/answerDContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/checkBoxD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/check_box_margin"
+                        android:scaleX="1.5"
+                        android:scaleY="1.5"
+                        android:theme="@style/checkBoxStyleD" />
+
+                    <TextView
+                        android:id="@+id/answerDText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/answer_text_size" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2" />
+
+            <Button
+                android:id="@+id/btnAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_height"
+                android:layout_margin="@dimen/btn_margin"
+                android:text="@string/btn_answer_text"
+                android:textAllCaps="false"
+                android:textColor="@color/buttonFontColor"
+                android:textSize="@dimen/btn_text_size" />
+
 
         </LinearLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/wrongAnimation"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/wrong" />
 
-        <LinearLayout
-            android:id="@+id/answerBContainer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/answer_margin_horizontal"
-            android:layout_marginTop="@dimen/answer_margin_to"
-            android:layout_marginEnd="@dimen/answer_margin_horizontal"
-            android:orientation="horizontal">
-
-            <CheckBox
-                android:id="@+id/checkBoxB"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/check_box_margin"
-                android:scaleX="1.5"
-                android:scaleY="1.5" />
-
-            <TextView
-                android:id="@+id/answerBText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="@dimen/answer_text_size" />
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
-
-        <LinearLayout
-            android:id="@+id/answerCContainer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/answer_margin_horizontal"
-            android:layout_marginTop="@dimen/answer_margin_to"
-            android:layout_marginEnd="@dimen/answer_margin_horizontal"
-            android:orientation="horizontal">
-
-            <CheckBox
-                android:id="@+id/checkBoxC"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/check_box_margin"
-                android:scaleX="1.5"
-                android:scaleY="1.5" />
-
-            <TextView
-                android:id="@+id/answerCText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="@dimen/answer_text_size" />
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
-
-        <LinearLayout
-            android:id="@+id/answerDContainer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/answer_margin_horizontal"
-            android:layout_marginTop="@dimen/answer_margin_to"
-            android:layout_marginEnd="@dimen/answer_margin_horizontal"
-            android:orientation="horizontal">
-
-            <CheckBox
-                android:id="@+id/checkBoxD"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/check_box_margin"
-                android:scaleX="1.5"
-                android:scaleY="1.5" />
-
-            <TextView
-                android:id="@+id/answerDText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="@dimen/answer_text_size" />
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="2" />
-
-        <Button
-            android:id="@+id/btnAnswer"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:layout_margin="@dimen/btn_margin"
-            android:text="@string/btn_answer_text"
-            android:textAllCaps="false"
-            android:textSize="@dimen/btn_text_size" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="2" />
-    </LinearLayout>
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/correctAnimation"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/correct" />
+    </android.support.constraint.ConstraintLayout>
 </ScrollView>

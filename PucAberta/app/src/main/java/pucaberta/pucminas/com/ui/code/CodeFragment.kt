@@ -1,5 +1,6 @@
 package pucaberta.pucminas.com.ui.code
 
+import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProviders
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -28,7 +29,7 @@ class CodeFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProviders.of(this).get(CodeViewModel::class.java)
-
+        observeViewModel()
         btnNext.setOnClickListener {
             if (checkCode()) {
                 val bundle = Bundle()
@@ -38,6 +39,16 @@ class CodeFragment : Fragment() {
                         .navigate(R.id.action_codeFragment_to_questionFragment, bundle)
             }
         }
+    }
+
+    private fun observeViewModel() {
+        viewModel.questionsLiveData.observe(this, Observer {
+            val bundle = Bundle()
+            bundle.putString("questions", it)
+            Navigation.findNavController(activity!!, R.id.myFragment)
+                    .navigate(R.id.action_codeFragment_to_questionFragment, bundle)
+
+        })
     }
 
     private fun checkCode(): Boolean {
