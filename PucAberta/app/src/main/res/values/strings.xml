@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Circuito Puc Minas</string>
-    <string name="enter_code">Entre com o código das perguntas</string>
+    <string name="enter_code">Entre com o código das perguntas. \n\n Ele deve ser o mesmo que o do outro jogador!</string>
     <string name="btn_enter_code_text">Próximo</string>
     <string name="question_title">Questão %d/9 </string>
     <string name="btn_answer_text">Responder</string>

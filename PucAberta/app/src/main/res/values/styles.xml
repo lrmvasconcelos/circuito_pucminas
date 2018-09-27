@@ -29,6 +29,9 @@
         <item name="colorAccent">@color/checkboxD</item>
         <item name="android:textColorSecondary">@color/checkboxD</item>
     </style>
+    <style name="code_edt" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/transparent</item>
+    </style>
 
 
 </resources>
