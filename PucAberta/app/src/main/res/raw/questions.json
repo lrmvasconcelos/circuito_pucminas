@@ -196,12 +196,12 @@
             },
             {
               "id": 1,
-              "correta": false,
+              "correta": true,
               "resposta": "100 cm"
             },
             {
               "id": 2,
-              "correta": true,
+              "correta": false,
               "resposta": "1000 cm"
             },
             {
@@ -239,7 +239,7 @@
         },
         {
           "id": 9,
-          "enunciado": "Em qual cidade fica a Estátua da Liberdade?",
+          "enunciado": "Qual é o maior animal vivo do mundo?",
           "questoes": [
             {
               "id": 0,
@@ -556,7 +556,7 @@
         },
         {
           "id": 6,
-          "enunciado": "Qual é a capital dos Estados Unidos?",
+          "enunciado": "Como se transmite a febre amarela?",
           "questoes": [
             {
               "id": 0,
@@ -899,7 +899,7 @@
         },
         {
           "id": 8,
-          "enunciado": "Qual o livro mais vendido no mundo depois da Bíblia?",
+          "enunciado": "Quantos elementos tem a tabela periódica?",
           "questoes": [
             {
               "id": 0,
