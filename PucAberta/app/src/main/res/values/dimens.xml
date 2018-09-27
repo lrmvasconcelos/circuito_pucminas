@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="enter_code_tv_size">30sp</dimen>
+    <dimen name="enter_code_tv_size">40sp</dimen>
     <dimen name="enter_code_tv_margin">100dp</dimen>
 
     <dimen name="enter_code_edv_margin">100dp</dimen>
@@ -26,4 +26,5 @@
     <dimen name="card_radius">2dp</dimen>
     <dimen name="card_elevation">2dp</dimen>
     <dimen name="progress_margin">20dp</dimen>
+    <dimen name="loading_margin">10dp</dimen>
 </resources>
