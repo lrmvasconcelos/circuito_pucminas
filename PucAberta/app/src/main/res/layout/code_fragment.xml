@@ -5,23 +5,41 @@
     android:id="@+id/code"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white_grey"
+    android:background="@color/white"
     tools:context=".ui.code.CodeFragment">
+
+    <ImageView
+        android:id="@+id/info"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/circuito_pucminas_width"
+        android:layout_height="@dimen/circuito_pucminas_height"
+        android:layout_marginTop="@dimen/circuito_pucminas_margin_top"
+        android:src="@drawable/ic_circuito_txt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/enter_code_tv_margin"
-        android:layout_marginEnd="30dp"
-        android:layout_marginStart="30dp"
+        android:layout_margin="30dp"
         android:text="@string/enter_code"
         android:textAlignment="center"
         android:textSize="@dimen/enter_code_tv_size"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:lineSpacingExtra="5dp"/>
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <com.poovam.pinedittextfield.LinePinField
         android:id="@+id/codeField"
@@ -44,6 +62,19 @@
         app:layout_constraintTop_toBottomOf="@+id/message"
         app:lineThickness="3dp"
         app:noOfFields="4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/same_code"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/codeField" />
 
     <Button
         android:id="@+id/btnNext"

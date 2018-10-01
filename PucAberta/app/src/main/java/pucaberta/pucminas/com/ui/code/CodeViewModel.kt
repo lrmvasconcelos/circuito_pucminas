@@ -25,24 +25,25 @@ class CodeViewModel : ViewModel() {
     }
 
     fun getQuestionsJson(myJson: String, code: String): String {
-        val firstQuestion: Int = code.toInt() % 13
-        val secondQuestion: Int = if (firstQuestion > 9) 0 else firstQuestion + 1
+        val firstLevel: Int = code.toInt() % 13
+        val secondLevel: Int = code.toInt() % 10
+        val thirdLevel: Int = code.toInt() % 11
 
         val file = gson.fromJson(myJson, QuestionsFile::class.java)
         val easyLevel = Level(type = 0, questions = mutableListOf(
-                file.levels[0].questions[firstQuestion],
-                file.levels[0].questions[firstQuestion + 1],
-                file.levels[0].questions[firstQuestion + 2]
+                file.levels[0].questions[firstLevel],
+                file.levels[0].questions[firstLevel + 1],
+                file.levels[0].questions[firstLevel + 2]
         ))
         val mediumLevel = Level(type = 1, questions = mutableListOf(
-                file.levels[1].questions[secondQuestion],
-                file.levels[1].questions[secondQuestion + 1],
-                file.levels[1].questions[secondQuestion + 2]
+                file.levels[1].questions[secondLevel],
+                file.levels[1].questions[secondLevel + 1],
+                file.levels[1].questions[secondLevel + 2]
         ))
         val hardLevel = Level(type = 2, questions = mutableListOf(
-                file.levels[2].questions[firstQuestion],
-                file.levels[2].questions[secondQuestion],
-                file.levels[2].questions[secondQuestion + 1]
+                file.levels[2].questions[thirdLevel],
+                file.levels[2].questions[thirdLevel + 1],
+                file.levels[2].questions[thirdLevel + 2]
         ))
         return gson.toJson(QuestionsFile(arrayOf(easyLevel, mediumLevel, hardLevel)))
     }

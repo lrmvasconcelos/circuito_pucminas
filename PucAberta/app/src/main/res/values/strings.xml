@@ -1,10 +1,17 @@
 <resources>
     <string name="app_name">Circuito Puc Minas</string>
-    <string name="enter_code">Entre com o código das perguntas. \n\n Ele deve ser o mesmo que o do outro jogador!</string>
+    <string name="enter_code">Entre com o código das perguntas</string>
+    <string name="same_code"> Ele deve ser o mesmo que o do outro jogador!</string>
     <string name="btn_enter_code_text">Próximo</string>
     <string name="question_title">Questão %d/9 </string>
     <string name="btn_answer_text">Responder</string>
     <string name="restart">Recomeçar</string>
     <string name="congratulations">Parabéns o seu resultado foi: </string>
     <string name="result">%d de 9 questões</string>
+    <string name="toolbar_title">Circuito PUC Minas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="team">Equipe</string>
+    <string name="dev_team">Pedro Henrique Laviola Caldeira \n Aluno do curso da Ciência da Computação - Coração Eucarístio \n \n Lucas Rafael Madeira Vasconcelos \n Aluno do curso da Ciência da Computação - Coração Eucarístio \n \n Professor Felipe Domingos da Cunha</string>
 </resources>

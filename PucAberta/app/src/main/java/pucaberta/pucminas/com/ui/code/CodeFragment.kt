@@ -55,6 +55,11 @@ class CodeFragment : Fragment() {
                 loadingAnimation.playAnimation()
             }
         }
+
+        info.setOnClickListener {
+            Navigation.findNavController(activity!!, R.id.myFragment)
+                    .navigate(R.id.action_codeFragment_to_infoFragment)
+        }
     }
 
     private fun observeViewModel() {
