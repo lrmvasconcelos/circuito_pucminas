@@ -15,16 +15,28 @@
     <dimen name="question_margin_horizontal">50dp</dimen>
     <dimen name="question_text_size">30sp</dimen>
 
-    <dimen name="check_box_margin">50dp</dimen>
+    <dimen name="check_box_margin">40dp</dimen>
 
     <dimen name="answer_text_size">30sp</dimen>
 
     <dimen name="answer_margin_to">30dp</dimen>
     <dimen name="answer_margin_horizontal">40dp</dimen>
+
     <dimen name="question_number_text_size">30sp</dimen>
-    <dimen name="result_text_size">70sp</dimen>
+
+    <dimen name="result_text_size">50sp</dimen>
+
     <dimen name="card_radius">2dp</dimen>
-    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_elevation">6dp</dimen>
+
     <dimen name="progress_margin">20dp</dimen>
+
     <dimen name="loading_margin">10dp</dimen>
+
+    <dimen name="circuito_pucminas_width">350dp</dimen>
+    <dimen name="circuito_pucminas_height">150dp</dimen>
+    <dimen name="circuito_pucminas_margin_top">20dp</dimen>
+    <dimen name="info_title_size">50sp</dimen>
+    <dimen name="info_title_margin">30dp</dimen>
+    <dimen name="info_content_size">20sp</dimen>
 </resources>
