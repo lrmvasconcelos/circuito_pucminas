@@ -2,6 +2,7 @@ package pucaberta.pucminas.com.ui.questions
 
 import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.ViewModel
+import android.os.CountDownTimer
 import com.google.gson.Gson
 import pucaberta.pucminas.com.MyApplication
 import pucaberta.pucminas.com.model.Question
@@ -12,8 +13,10 @@ class QuestionViewModel(json: String) : ViewModel() {
 
     val questionsLiveData: MutableLiveData<Question> = MutableLiveData()
     val btnStateLiveData: MutableLiveData<Boolean> = MutableLiveData()
+    val timeLiveData: MutableLiveData<String> = MutableLiveData()
     val correctAnswerLiveData: MutableLiveData<QuestionResponse> = MutableLiveData()
     val scoreLiveData: MutableLiveData<Int> = MutableLiveData()
+    val countDownTimer = timer(32000, 1000)
     private var numberQuestions = 0
     private var currentQuestion = getCurrentQuestion()
     private var correctAnswers = getScore()
@@ -27,10 +30,12 @@ class QuestionViewModel(json: String) : ViewModel() {
         } else{
             numberQuestions = questionFile!!.size()
             questionsLiveData.value = questionsList!![currentQuestion]
+            countDownTimer.start()
             btnStateLiveData.value = false
             saveDataInstance()
             startQuestions()
         }
+
     }
 
     fun checked(answer: Int) {
@@ -46,6 +51,7 @@ class QuestionViewModel(json: String) : ViewModel() {
 
     private fun checkQuestion(answerChecked: Int) {
         var isCorrect = false
+        countDownTimer.cancel()
         if (questionsList!![currentQuestion].answers[answerChecked].correct) {
             correctAnswers++
             isCorrect = true
@@ -55,6 +61,7 @@ class QuestionViewModel(json: String) : ViewModel() {
             this.answerChecked = -1
             correctAnswerLiveData.value =
                     QuestionResponse(currentQuestion, questionsList!![currentQuestion], isCorrect)
+            countDownTimer.start()
             btnStateLiveData.value = false
         } else {
             correctAnswerLiveData.value = QuestionResponse(9, questionsList!![8], isCorrect)
@@ -92,5 +99,41 @@ class QuestionViewModel(json: String) : ViewModel() {
             0
         else
             score
+    }
+
+    private fun timer(millisInFuture:Long,countDownInterval:Long):CountDownTimer{
+        return object: CountDownTimer(millisInFuture,countDownInterval){
+            override fun onTick(millisUntilFinished: Long){
+                timeLiveData.value = formattedTime(millisUntilFinished)
+            }
+
+            override fun onFinish() {
+                currentQuestion++
+                if (currentQuestion < 9) {
+                    answerChecked = -1
+                    correctAnswerLiveData.value = QuestionResponse(
+                            currentQuestion,
+                            questionsList!![currentQuestion],
+                            false)
+                    countDownTimer.start()
+                    btnStateLiveData.value = false
+                } else {
+                    correctAnswerLiveData.value = QuestionResponse(
+                            9,
+                            questionsList!![8],
+                            false)
+                    finishQuestions()
+                }
+                saveDataInstance()
+            }
+        }
+    }
+
+    private fun formattedTime(millisUntilFinished: Long): String? {
+        val seconds = millisUntilFinished / 1000
+        return if(seconds > 10)
+            "0:$seconds"
+        else
+            "0:0$seconds"
     }
 }

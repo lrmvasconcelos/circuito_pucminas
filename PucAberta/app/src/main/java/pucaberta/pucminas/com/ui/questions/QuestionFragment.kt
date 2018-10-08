@@ -87,6 +87,9 @@ class QuestionFragment : Fragment() {
             Navigation.findNavController(activity!!, R.id.myFragment)
                     .navigate(R.id.action_questionFragment_to_resultFragment)
         })
+        viewModel.timeLiveData.observe(this, Observer {
+            timer.text = it
+        })
     }
 
     private fun animateQuestions(response: QuestionResponse) {
