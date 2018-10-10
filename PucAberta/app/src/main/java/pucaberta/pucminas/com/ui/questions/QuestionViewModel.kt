@@ -131,7 +131,7 @@ class QuestionViewModel(json: String) : ViewModel() {
 
     private fun formattedTime(millisUntilFinished: Long): String? {
         val seconds = millisUntilFinished / 1000
-        return if(seconds > 10)
+        return if(seconds >= 10)
             "0:$seconds"
         else
             "0:0$seconds"
