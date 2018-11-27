@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.poovam:pin-edittext-field:1.0.8@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/pin-edittext-field-1.0.8.aar/b0d265a4664d7c73c749617d83cb7cae/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/pin-edittext-field-1.0.8.aar/b0d265a4664d7c73c749617d83cb7cae/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/pin-edittext-field-1.0.8.aar/b3cd98cb15ac1d67df78b77bd8df7e37/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/pin-edittext-field-1.0.8.aar/b3cd98cb15ac1d67df78b77bd8df7e37/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
